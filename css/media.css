@@ -1,0 +1,364 @@
+@media (max-width: 550px) {
+  a {
+    font-size: 10px;
+  }
+  .point {
+    margin-right: 12px;
+  }
+  .picture {
+    height: 34px;
+    width: 53px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .structure {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .list {
+    list-style: none;
+    display: flex;
+    font-family: monospace;
+    margin: 5px;
+    font-size: 10px;
+    padding: 0px;
+  }
+  .link {
+    font-size: 10px;
+    color: darkkhaki;
+  }
+  .big {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+    padding: 8px;
+    border-radius: 15px;
+    size: 10px;
+    text-align: justify;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: rgb(255, 25, 133);
+    font-size: 20px;
+    text-decoration: wavy;
+    text-shadow: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 47px;
+  }
+  p {
+    color: rgb(125, 33, 153);
+    font-size: 10px;
+    margin: 0px;
+    border-radius: 20px;
+  }
+  .picture2 {
+    border-radius: 15px;
+    height: 139px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .picture3 {
+    border-radius: 15px;
+    height: 136px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .picture4 {
+    border-radius: 15px;
+    height: 168px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .formin {
+    border: -13px solid crimson;
+    border-radius: 5px;
+    background-color: rgb(255, 229, 83);
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: crimson;
+    margin-left: 0px;
+  }
+  .form {
+    margin-left: 1px;
+  }
+  .pic {
+    background-image: url(../img/yjhd.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: 4px;
+    border-radius: 20px;
+  }
+  .newp {
+    max-width: 100%;
+    /* border: 5px solid crimson; */
+    margin-top: -5px;
+    padding: -4px;
+    /* font-family: fantasy; */
+    color: rgb(255, 255, 255);
+    background-color: rgba(100, 148, 237, 0.61);
+    margin-left: 0px;
+    /* margin-top: -4px; */
+  }
+
+  .position {
+    display: flex;
+    align-items: center;
+    text-decoration: wavy;
+    margin-right: 24px;
+  }
+
+  .first-second {
+    background: rgb(245, 225, 115);
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+  }
+
+  .second {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(223, 247, 115);
+    text-decoration: none;
+    color: rgb(201, 30, 81);
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 0px;
+  }
+
+  .first {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(223, 247, 115);
+    text-decoration: none;
+    color: rgb(201, 30, 81);
+    border-radius: 20px;
+    padding: 6px;
+    transition: all 1000ms;
+  }
+
+  .cards {
+    padding: 0px;
+  }
+
+  .picture5 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .firstcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture6 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .secondcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .picture7 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .thirdcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture8 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .forthcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture9 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .fifthcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture10 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .sixcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture11 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .sevencard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .picture12 {
+    border: 3px solid crimson;
+    border-radius: 100px;
+    object-fit: cover;
+    width: 82px;
+  }
+
+  .eightcard {
+    background-color: hotpink;
+    width: 111px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .picture13 {
+    width: 201px;
+    height: 156px;
+    margin-left: 2px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: rgb(255, 25, 133);
+    font-size: 20px;
+    text-decoration: wavy;
+    text-shadow: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+  }
+  .title3 {
+    color: rgb(189, 29, 130);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    background-color: lightpink;
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+  p {
+    color: rgb(125, 33, 153);
+    font-size: 10px;
+    margin: 0px;
+    border-radius: 20px;
+  }
+  li {
+    font-size: 10px;
+  }
+  .formbutton {
+    padding: 0px;
+  }
+  .picture13 {
+    width: 100%;
+    height: 156px;
+    object-fit: cover;
+    margin-left: 2px;
+  }
+  .picture {
+    height: 64px;
+    width: 95px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .link {
+    font-size: 15px;
+    color: darkkhaki;
+  }
+
+  .tulpp {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .listel1 {
+    color: rgb(253, 253, 253);
+    font-size: xx-large;
+    margin-bottom: 15px;
+  }
+}
